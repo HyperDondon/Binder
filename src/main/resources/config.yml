@@ -1,0 +1,31 @@
+servers:
+  #Our server (A main server)
+  server1:
+    #Path: "C:/MainServers/server1" <-- For custom paths
+    #Name: "server1" Name in path
+    JarPath: "${dir}/server1.jar"
+    #An instance of the main server
+    instance1:
+      #Port: 25565 <-- For Minecraft servers
+      #Path: "C:/OtherInstanceServers/instance1" <-- For custom paths
+      #Name: "instance1" Name in path
+    instance2:
+      #Port: 25566 <-- For Minecraft servers
+      #Path: "C:/OtherInstanceServers/instance1" <-- For custom paths
+      #Name: "instance1" Name in path
+
+  #Our server (A main server)
+  server2:
+    #Path: "C:/MainServers/server1" <-- For custom paths
+    #Name: "server1" Name in path
+    JarPath: "${dir}/server1.jar"
+    #An instance of the main server
+    instance1:
+      #Port: 25567 <-- For Minecraft servers
+      #Path: "C:/OtherInstanceServers/instance1" <-- For custom paths
+      #Name: "instance1" Name in path
+    instance2:
+      #Port: 25568 <-- For Minecraft servers
+      #Path: "C:/OtherInstanceServers/instance1" <-- For custom paths
+      #Name: "instance1" Name in path
+
